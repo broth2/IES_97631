@@ -1,0 +1,5 @@
+com/mycompany/app/App.class
+weather/ipma_client/CityForecast.class
+weather/ipma_client/IpmaService.class
+weather/ipma_client/IpmaCityForecast.class
+weather/WeatherStarter.class

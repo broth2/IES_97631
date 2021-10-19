@@ -7,6 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import weather.ipma_client.IpmaCityForecast;
 import weather.ipma_client.IpmaService;
 
+import java.io.PipedWriter;
 import java.util.logging.Logger;
 
 /**
@@ -14,8 +15,9 @@ import java.util.logging.Logger;
  */
 public class WeatherStarter {
 
-    private static final int CITY_ID_AVEIRO = 1010500;
+    private static int CITY_ID_AVEIRO = 1010500;
     /*
+    aveiro= 101 0 500
     loggers provide a better alternative to System.out.println
     https://rules.sonarsource.com/java/tag/bad-practice/RSPEC-106
      */
@@ -26,6 +28,9 @@ public class WeatherStarter {
         /*
         get a retrofit instance, loaded with the GSon lib to convert JSON into objects
          */
+
+        CITY_ID_AVEIRO = Integer.parseInt(args[0]);
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://api.ipma.pt/open-data/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -39,8 +44,13 @@ public class WeatherStarter {
             IpmaCityForecast forecast = apiResponse.body();
 
             if (forecast != null) {
-                logger.info( "max temp for today: " + forecast.getData().
-                        listIterator().next().getTMax());
+                logger.info("\nlocation: " +  forecast.getGlobalIdLocal() + 
+                        "\nmax temp for today: " + forecast.getData().
+                        listIterator().next().getTMax() + 
+                        "\nmin temp for today: " + forecast.getData().listIterator().next().getTMin() +
+                        "\ncountry: " + forecast.getCountry() + "\nowner: " + forecast.getOwner() +
+                        "\nrain: " + forecast.getData().listIterator().next().getPrecipitaProb() + 
+                        "\ncity: "+ forecast.getData().listIterator().next().getLatitude() + " " + forecast.getData().listIterator().next().getLongitude());
             } else {
                 logger.info( "No results!");
             }
