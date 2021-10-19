@@ -8,3 +8,8 @@ mvn exec:java -exec:mainClass="----" -D exec:cleanupDaemonThreads=false
 mvn clean package -> limpar & compilar
 
 mvn exec:java -Dexec.mainClass="[CLASS NAME HERE]" -> corre o programa
+
+mvn exec:java -Dexec.mainClass="[CLASS NAME HERE]" -Dexec.args="[ARGS HERE]" -> corre o programa com args
+
+
+git log --reverse --oneline  
