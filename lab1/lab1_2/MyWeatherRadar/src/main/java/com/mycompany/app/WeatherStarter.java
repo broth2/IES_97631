@@ -7,8 +7,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import weather.ipma_client.IpmaCityForecast;
 import weather.ipma_client.IpmaService;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.PipedWriter;
-import java.util.logging.Logger;
+//import java.util.logging.Logger;
 
 /**
  * demonstrates the use of the IPMA API for weather forecast
@@ -21,7 +24,7 @@ public class WeatherStarter {
     loggers provide a better alternative to System.out.println
     https://rules.sonarsource.com/java/tag/bad-practice/RSPEC-106
      */
-    private static final Logger logger = Logger.getLogger(WeatherStarter.class.getName());
+    private static final Logger logger = LogManager.getLogger(WeatherStarter.class.getName());
 
     public static void  main(String[] args ) {
 
@@ -44,6 +47,7 @@ public class WeatherStarter {
             IpmaCityForecast forecast = apiResponse.body();
 
             if (forecast != null) {
+                logger.debug("city code found info displayed");
                 logger.info("\nlocation: " +  forecast.getGlobalIdLocal() + 
                         "\nmax temp for today: " + forecast.getData().
                         listIterator().next().getTMax() + 
@@ -52,6 +56,7 @@ public class WeatherStarter {
                         "\nrain: " + forecast.getData().listIterator().next().getPrecipitaProb() + 
                         "\ncity: "+ forecast.getData().listIterator().next().getLatitude() + " " + forecast.getData().listIterator().next().getLongitude());
             } else {
+                logger.debug("city code not found");
                 logger.info( "No results!");
             }
         } catch (Exception ex) {
