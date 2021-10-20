@@ -13,3 +13,11 @@ mvn exec:java -Dexec.mainClass="[CLASS NAME HERE]" -Dexec.args="[ARGS HERE]" -> 
 
 
 git log --reverse --oneline  
+
+
+
+docker run -d -p 80:80 docker/getting-started  -> d manda para o background(detached), p especifica o port
+
+docker build -t getting-started .    ->  cria novo container a partir do dockerfile na pasta especificada("."), t é human readable
+
+1.4-c)
