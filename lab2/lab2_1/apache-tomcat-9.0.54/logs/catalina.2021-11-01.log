@@ -1,0 +1,77 @@
+01-Nov-2021 00:38:21.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-89-generic
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.20.04
+01-Nov-2021 00:38:21.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+01-Nov-2021 00:38:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54
+01-Nov-2021 00:38:21.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54
+01-Nov-2021 00:38:21.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Nov-2021 00:38:21.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Nov-2021 00:38:21.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Nov-2021 00:38:21.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Nov-2021 00:38:21.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Nov-2021 00:38:21.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+01-Nov-2021 00:38:21.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Nov-2021 00:38:21.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Nov-2021 00:38:21.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Nov-2021 00:38:21.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Nov-2021 00:38:21.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Nov-2021 00:38:21.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54
+01-Nov-2021 00:38:21.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54
+01-Nov-2021 00:38:21.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/temp
+01-Nov-2021 00:38:21.357 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+01-Nov-2021 00:38:22.261 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Nov-2021 00:38:22.424 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2468] milliseconds
+01-Nov-2021 00:38:22.622 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Nov-2021 00:38:22.622 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+01-Nov-2021 00:38:22.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+01-Nov-2021 00:38:23.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [938] ms
+01-Nov-2021 00:38:23.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+01-Nov-2021 00:38:23.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [39] ms
+01-Nov-2021 00:38:23.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+01-Nov-2021 00:38:23.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [35] ms
+01-Nov-2021 00:38:23.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+01-Nov-2021 00:38:23.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [24] ms
+01-Nov-2021 00:38:23.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+01-Nov-2021 00:38:24.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [664] ms
+01-Nov-2021 00:38:24.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Nov-2021 00:38:24.457 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2032] milliseconds
+01-Nov-2021 00:50:24.613 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 00:50:24.676 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [63] ms
+01-Nov-2021 01:07:44.922 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:07:45.015 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:07:45.058 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [43] ms
+01-Nov-2021 01:08:45.068 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:08:45.076 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:08:45.141 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [65] ms
+01-Nov-2021 01:09:05.144 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:09:05.153 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:09:05.180 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [27] ms
+01-Nov-2021 01:11:05.203 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:11:05.221 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:11:05.258 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [37] ms
+01-Nov-2021 01:14:25.291 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:14:25.305 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:14:25.332 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [27] ms
+01-Nov-2021 01:15:39.142 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:16:15.352 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:16:15.381 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [29] ms
+01-Nov-2021 01:16:18.617 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 01:17:45.397 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 01:17:45.424 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [27] ms
+01-Nov-2021 02:03:15.864 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 02:03:15.872 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 02:03:15.920 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [48] ms
+01-Nov-2021 02:23:46.107 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 02:23:46.117 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 02:23:46.141 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [24] ms
+01-Nov-2021 02:30:46.204 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 02:30:46.213 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 02:30:46.237 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [24] ms
+01-Nov-2021 02:41:56.331 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/aplic-1.0-SNAPSHOT]
+01-Nov-2021 02:41:56.339 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war]
+01-Nov-2021 02:41:56.397 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/media/fahla/Computer2/IES/IES_97631/lab2/lab2_1/apache-tomcat-9.0.54/webapps/aplic-1.0-SNAPSHOT.war] has finished in [58] ms
