@@ -46,3 +46,19 @@ index.html esta reservado para o endereco root, esta na pasta static porque nao 
 o greeting controller transforma os pedidos GET de /greeting em objetos/instancias da class Greeting
 
 web controller != resource controller
+
+
+REVIEW QUESTIONS:
+A) Os servlets recebem e respondem aos pedidos dos clientes depois de estes serem processados pelo container
+
+B) O model esta representado nos dados da aplicação, o view nos ficheiros html e o controller é a ponte entre os dois, interceptando os pedidos, faz a conversão para a estrutura interna da aplicação, envia os dados para o model para depois serem apresentados no view. O DispatcherServlet é esse controller que retorna a data em json através de respostas HTTP
+
+C) As starter dependecies, trazem as funcionalidades todas das dependencies generalizadas, não havendo necessidade de especificar todas as dependencies
+
+D)@EnableAutoConfiguration, @ComponentScan, @Configuration
+
+E) Retornar códigos de erro standard e lidar de forma siplificada com eles
+    Haver controlo aos acessos e boas práticas de segurança
+    Criar caches de dados para otimizar a performance
+    Usar json para todas as comunicações
+    Permitir filtragem e paginação, no caso de bases de dados enormes, também para otimizar a performance
