@@ -20,18 +20,22 @@ public class User {
     
     @NotBlank(message = "Email is mandatory")
     private String email;
+    
+    @NotBlank(message = "Phone is mandatory")
+    private String phone;
 
     // standard constructors / setters / getters / toString
 
-    public User(String name, String email) {
+    public User(String name, String email, String phone) {
         this.name = name;
         this.email = email;
+        this.phone = phone;
     }
 
     public User(){}
     @Override
     public String toString() {
-        return "User{" + "id=" + id + ", name=" + name + ", email=" + email + '}';
+        return "User{" + "id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + '}';
     }
 
     public long getId() {
@@ -56,6 +60,14 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+
+    public String getPhone(){
+        return phone;
     }
 
     
