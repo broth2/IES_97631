@@ -15,4 +15,13 @@ view layer vai para a pasta /templates
 	-na classe User atraves da anotacao @NotBlank
 
 
-docker run --name mysql5 -e MYSQL_ROOT_PASSWORD=secret1-e MYSQL_DATABASE=demo-e MYSQL_USER=demo -e MYSQL_PASSWORD=secret2-p 33060:3306-d mysql/mysql-server:5.7
+docker run --name mysql5 -e MYSQL_ROOT_PASSWORD=secret1 -e MYSQL_DATABASE=demo -e MYSQL_USER=demo -e MYSQL_PASSWORD=secret2 -p 3306:3306 -d mysql/mysql-server:5.7
+
+POSTMAN:
+POST->inserir
+GET->ver
+DELETE->apagar
+PUT->update
+
+o Spring Data JPA cria implementacoes automaticamente, so precisa de ter o mesmo nome da variavel da classe
+
