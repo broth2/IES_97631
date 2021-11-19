@@ -1,0 +1,46 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Controllers
+</help_text><element><id>UMLClass</id><coordinates><x>270</x><y>20</y><w>210</w><h>120</h></coordinates><panel_attributes>QuotesController
+--
++quotesService : QuotesService
++moviesService : MovieService
+--
+getAllQuotes() : List&lt;Quotes&gt; 
+updateQuotes(Quotes product) : Quotes
+...</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>540</x><y>50</y><w>140</w><h>40</h></coordinates><panel_attributes>controllers
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>210</y><w>210</w><h>100</h></coordinates><panel_attributes>QuotesService
+--
++repository : QuotesRepository
+--
+saveQuote(Quotes quote) : Quotes
+getQuotes() : List&lt;Quotes&gt;
+...</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>210</y><w>210</w><h>100</h></coordinates><panel_attributes>MovieService
+--
++repository : MovieRepository
+--
+saveMovie(Quotes quote) : Movie
+getMovies() : List&lt;Movie&gt;
+...</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>620</x><y>230</y><w>140</w><h>40</h></coordinates><panel_attributes>services
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>130</y><w>120</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;80;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>130</y><w>150</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>130;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>370</y><w>210</w><h>70</h></coordinates><panel_attributes>QuotesRepository
+--
+findByYear(int year) : List&lt;Quotes&gt;
+findById(long id) : Quotes</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>370</y><w>210</w><h>70</h></coordinates><panel_attributes>MovieRepository
+--
+findByName(String name) : List&lt;Movie&gt;
+findById(long id) : Movie</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>490</y><w>210</w><h>40</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;
+JpaRepository</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>430</y><w>160</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;140;60</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>430</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;10;60</additional_attributes></element><element><id>UMLNote</id><coordinates><x>640</x><y>440</y><w>140</w><h>40</h></coordinates><panel_attributes>repositories
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>650</x><y>610</y><w>140</w><h>40</h></coordinates><panel_attributes>entities
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>580</y><w>210</w><h>130</h></coordinates><panel_attributes>Quotes
+--
+- id : long
+- texto : String
+- year : int
+- order : Movie
+--
++ getTexto() : String
+....</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>580</y><w>210</w><h>100</h></coordinates><panel_attributes>Movie
+--
+- id : long
+- name : String
+--
++ getName() : String
+....</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>430</y><w>30</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>430</y><w>30</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element></diagram>

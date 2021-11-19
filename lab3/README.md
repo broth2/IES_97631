@@ -25,3 +25,15 @@ PUT->update
 
 o Spring Data JPA cria implementacoes automaticamente, so precisa de ter o mesmo nome da variavel da classe
 
+
+mvn install -DskipTests -> criar o jar para separar no docker, nao faz testes, assim nao da erros porque nao testa a base de dados que ainda nao foi ligada
+
+
+## REVIEW QUESTIONS
+A)@RestController faz com que nao tenhamos de adicionar @RequestBody a todos os handlers, tratando dos REST services. Faz o que o @Controller e o @ResponseBody fazem.
+
+B) ./diagrama.uxf
+
+C)Essas anotacoes servem para traduzir as funcionalidades de Table, Column e Id das bases de dados para as classes de java
+
+D)A anotacao @AutoWired liga o Controller aos dois repository/service
